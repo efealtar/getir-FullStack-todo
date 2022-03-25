@@ -5,7 +5,6 @@ import TextField from "@mui/material/TextField";
 import { addTodo } from "../redux/feature/todoSlice";
 import { useDispatch } from "react-redux";
 import { AppDispatch } from "../redux/store/store";
-import { toast } from "react-toastify";
 
 const HeadTitle = () => {
 	const dispatch = useDispatch<AppDispatch>();
