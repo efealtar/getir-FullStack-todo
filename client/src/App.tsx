@@ -14,7 +14,7 @@ function App() {
 	const dispatch = useDispatch();
 	useEffect(() => {
 		dispatch(getTodosAsync());
-	}, []);
+	}, [dispatch]);
 
 	const { status } = useSelector((state: any) => state);
 
